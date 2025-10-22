@@ -8,6 +8,9 @@ function App() {
 
   return (
     <>
+    <div className="absolute inset-0 overflow-hidden bg-gradient-to-b from-blue-100 to-white">
+        <div className="snowfall pointer-events-none absolute inset-0" />
+    </div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
